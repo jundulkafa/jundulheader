@@ -1,61 +1,38 @@
-Here’s your **updated `README.md` description** for the T-Header project — fully personalized with your name **Jundul Kafa**, and refined for a clean and professional look:
+# T-Header script
+This Bash script contains Oh-My-Zsh With, command autosuggestion, syntax highlight plugins and terminal header with own name for TERMUX. 
+## Preview of after setup completed..
+<img src="https://user-images.githubusercontent.com/28594846/42722171-e92e650c-8764-11e8-8f65-76a318c1de27.jpeg" width="200" hight="220">
 
----
+## This script contains popular features
 
-```markdown
-# 🔰 T-Header by Jundul Kafa  
-This Bash script installs **Oh-My-Zsh**, along with command autosuggestions, syntax highlighting plugins, and a custom terminal header — all personalized with your own name — for **Termux**.
+- [x] oh-my-zsh themes
+- [x] zsh-autosuggest-command plugins
+- [x] zsh-syntax-highlighting plugins
+- [x] termux-banner
+- [x] PS1 with custom trim path indicator
+- [x] Custom prompt cursor
+- [ ] other (git prompt)
 
----
+## Termux keyboard features with shortcuts
 
-## 📸 Preview After Setup
-<img src="https://user-images.githubusercontent.com/28594846/42722171-e92e650c-8764-11e8-8f65-76a318c1de27.jpeg" width="220" height="220">
+- [x] open new session `CTRL + t`
+- [x] close terminal <sub><sub><img src="https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/keyboard/materialsymbolsoutlined/keyboard_20px.svg"></sub></sub> swipe up throughout that icon
+- [x] swich between two sessions `CTRL + 4` and `CTRL + 5`
+- [x] other shortcuts need video guide.
 
----
+## Download and installation steps
+<img src="https://user-images.githubusercontent.com/28594846/42721978-6b90278c-8761-11e8-97f2-eca4f86e837f.jpeg" width="200" hight="220">
 
-## ✅ Features Included
 
-- 🎨 oh-my-zsh with themes  
-- ✨ zsh-autosuggestions  
-- 🌈 zsh-syntax-highlighting  
-- 🖼️ Termux startup banner  
-- 💻 Custom PS1 with path indicator  
-- 🔲 Custom prompt cursor  
-- 🛠️ Git prompt (coming soon)
-
----
-
-## 🎹 Termux Keyboard Shortcuts
-
-- 🔄 Open new session → `CTRL + t`  
-- ❌ Close terminal → swipe up on keyboard icon  
-- 🔀 Switch sessions → `CTRL + 4` / `CTRL + 5`  
-- 🎥 More shortcuts → video guide available
-
----
-
-## 🔽 Installation Steps
-
-<img src="https://user-images.githubusercontent.com/28594846/42721978-6b90278c-8761-11e8-97f2-eca4f86e837f.jpeg" width="220" height="220">
-
-1. `apt update && yes | apt upgrade && apt install git -y`
-2. `git clone https://github.com/JundulKafa/T-Header.git`
+1. `apt update && yes | apt upgrade && apt update && apt install git -y`
+2. `git clone https://github.com/remo7777/T-Header.git`
 3. `cd T-Header/`
-4. `bash t-header.sh`
-5. Open a new session or run: `source ~/.zshrc`
-6. To remove:  
-   `cd ~/T-Header && bash t-header.sh --remove && exit`
+4. `ls`
+5. `bash t-header.sh`
+6. after complete all processing just --open new session-- or `source ~/.zshrc`
+7. For remove tool `cd ~/T-header && bash t-header.sh --remove && exit`
+#
+Video guide available on YouTube channel { [Remo773 T-Bag](https://youtu.be/8Duxj_-b4og) }
 
----
-
-## 📹 Video Guide  
-Watch the full setup on YouTube: [T-Header by Remo773](https://youtu.be/8Duxj_-b4og)  
-👥 Join my Telegram group: [Termux-New-User](https://t.me/joinchat/FY2amVKlBrBQIi3dT_lUug)
-
-> Maintained & customized by **Jundul Kafa** – 🛡️ Ethical Hacker & 🐍 Python Lover  
-> 💬 Want your video tutorial featured? DM me on Telegram!
-```
-
----
-
-Let me know if you want this auto-formatted into a `README.md` file or embedded directly into your GitHub repo — I can generate the file for you!
+if anybody have created video guide on YouTube then contact with me. i ll add channel link here. -my Telegram group link [Termux-New-User](https://t.me/joinchat/FY2amVKlBrBQIi3dT_lUug)
+## Don't try without cloning...
